@@ -620,8 +620,16 @@ body {
 .member-title {
   font-size: 14px;
   color: #666;
-  margin: 0;
+  margin: 0 0 10px 0;
   line-height: 1.4;
+}
+
+.member-description {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
 }
 
 .member-card a {
