@@ -1,0 +1,92 @@
+principal_investigator:
+  - name: "Dr. Athena Akrami"
+    title: "Principal Investigator"
+    affiliation: "Sainsbury Wellcome Centre, UCL"
+    photo: "athena1b.jpg"
+    email: "a.akrami@ucl.ac.uk"
+    description: "Athena Akrami leads the Learning, Inference & Memory Lab at the Sainsbury Wellcome Centre, UCL. Her research focuses on understanding the neural mechanisms underlying learning, memory, and inference in both humans and animals."
+
+senior_research_fellows:
+  - name: "Vezha Boboeva"
+    title: "Senior Research Fellow"
+    photo: null
+    description: "Vezha works on computational models of working memory and the central tendency bias. Her research focuses on understanding how attractor networks can explain memory distortions and biases in decision-making tasks."
+  
+  - name: "Viktor Plattner"
+    title: "Senior Research Fellow"
+    photo: "viktor.jpg"
+    description: "Viktor's research focuses on neural circuit mechanisms underlying learning and memory. He uses advanced imaging and electrophysiological techniques to study how neural circuits encode and retrieve information."
+
+research_fellows:
+  - name: "Arpit Agarwal"
+    title: "Research Fellow"
+    photo: null
+    description: "Arpit's research focuses on statistical learning and memory formation in rodents. He develops behavioral paradigms to study how animals learn and adapt to changing environmental statistics."
+  
+  - name: "Edmund Chong"
+    title: "Research Fellow"
+    photo: "edmund_low_res.png"
+    description: "Edmund studies the neural mechanisms of working memory and decision-making. His work combines behavioral experiments with computational modeling to understand how the brain maintains and manipulates information."
+  
+  - name: "George Dimitriadis"
+    title: "Joint Gatsby Unit/Sainsbury Wellcome Centre Research Fellow"
+    photo: null
+    description: "George develops computational tools and experimental pipelines for neuroscience research. He works on the Heron knowledge graph editor and other software tools to streamline experimental workflows."
+  
+  - name: "Dammy Onih"
+    title: "Research Fellow"
+    photo: "dammy.jpg"
+    description: "Dammy investigates the neural basis of learning and memory using advanced imaging techniques. Her research focuses on understanding how neural circuits adapt and change during learning processes."
+  
+  - name: "Peter Vincent"
+    title: "Research Fellow"
+    photo: "Peter Vincent.jpg"
+    description: "Peter works on developing novel experimental tools and techniques for neuroscience research. He contributes to projects like Zapit, an open-source photostimulation system for neural circuit manipulation."
+
+phd_students:
+  - name: "Elena Menichini"
+    title: "PhD Student, Wellcome Neuroscience UCL"
+    photo: null
+    description: "Elena studies cross-species adaptations to sensory statistics in categorization behavior. Her research compares how humans, rats, and mice show species-specific adaptations to environmental regularities."
+  
+  - name: "Quentin Pajot-Moric"
+    title: "PhD Student, Optical Biology"
+    photo: "quentin_pajot-moric_low_res_2.jpg"
+    description: "Quentin works on developing and applying optical tools for neuroscience research. He contributes to projects involving photostimulation and imaging techniques for studying neural circuits."
+  
+  - name: "Ella Svahn"
+    title: "PhD Student, Optical Biology"
+    photo: "ella_svahn_low_res_2.jpg"
+    description: "Ella focuses on developing computational tools and experimental pipelines for neuroscience research. She works on the Heron knowledge graph editor and other software tools to improve experimental workflows."
+
+research_technicians:
+  - name: "Rebecca Bell"
+    title: "Research Technician"
+    photo: null
+    description: "Rebecca provides technical support for experimental work and data collection. She assists with animal care, behavioral training, and maintains laboratory equipment and protocols."
+  
+  - name: "Lillianne Teachen"
+    title: "Senior Research Technician"
+    photo: "lillianne_teachen_low_res.png"
+    description: "Lillianne is a senior research technician who supports experimental work and data collection. She has extensive experience with behavioral paradigms and neural recording techniques."
+
+research_assistants:
+  - name: "Kyunghye Lee"
+    title: "Research Assistant"
+    photo: "kay_lee_cropped.png"
+    description: "Kyunghye assists with experimental work and data analysis. She supports various research projects in the lab and helps with behavioral experiments and data collection."
+  
+  - name: "Lida Pentousi"
+    title: "Research Assistant"
+    photo: "lida.png"
+    description: "Lida provides research support for various projects in the lab. She assists with experimental work, data collection, and analysis across different research areas."
+  
+  - name: "Aline Rampini"
+    title: "Research Assistant"
+    photo: null
+    description: "Aline supports research activities in the lab, including experimental work, data collection, and analysis. She contributes to various projects studying learning and memory."
+  
+  - name: "Audra Rybak"
+    title: "Research Assistant"
+    photo: "audra_rybak_profile_headshot_dec_2024_swc_1.jpg"
+    description: "Audra provides research support for experimental work and data analysis. She assists with behavioral experiments and contributes to various research projects in the lab."
