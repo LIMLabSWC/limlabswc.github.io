@@ -14,6 +14,7 @@ This website is built using [Jekyll](https://jekyllrb.com/), a static site gener
 ## 📁 Site Structure
 
 ```
+├── 404.html             # Custom 404 error page
 ├── _config.yml          # Site configuration
 ├── _layouts/
 │   └── default.html     # Main layout template
@@ -23,6 +24,11 @@ This website is built using [Jekyll](https://jekyllrb.com/), a static site gener
 ├── _data/
 │   ├── people.yml       # Lab members data
 │   └── publications.yml # Publications data
+├── _people/             # Empty collection directory
+├── _publications/       # Empty collection directory
+├── Gemfile              # Ruby dependencies
+├── Gemfile.lock         # Locked dependency versions
+├── .gitignore           # Git ignore rules
 ├── index.md             # Home page
 ├── research/
 │   └── index.md         # Research page
@@ -38,6 +44,11 @@ This website is built using [Jekyll](https://jekyllrb.com/), a static site gener
     ├── css/
     │   └── style.css    # All styling
     └── img/             # Images and photos
+        ├── athena1b.jpg
+        ├── European_Research_Council_logo-01.webp
+        ├── sainsbury.png
+        ├── ucl.png
+        └── [other member photos and logos]
 ```
 
 ## 🛠️ Local Development

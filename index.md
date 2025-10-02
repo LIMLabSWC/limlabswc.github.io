@@ -58,7 +58,7 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
       <p>This €2 million award over five years enables us to conduct long-term research and recruit <strong>postdoctoral fellows</strong> and research technicians.</p>
     </div>
     <div class="erc-logo">
-      <img src="{{ '/assets/img/erc.png' | relative_url }}" alt="ERC logo">
+      <img src="{{ '/assets/img/European_Research_Council_logo-01.webp' | relative_url }}" alt="ERC logo">
     </div>
   </div>
 </section>
