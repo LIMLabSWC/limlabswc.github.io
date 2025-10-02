@@ -5,7 +5,7 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
 ---
 
 <section class="hero">
-  <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="Hero image">
+  <img src="{{ '/assets/img/header_london.png' | relative_url }}" alt="Hero image">
   <div class="hero-content">
     <h1>Learning, Inference &amp; Memory</h1>
     <p class="hero-subtitle">Athena Akrami's lab at Sainsbury Wellcome Centre, UCL, London</p>
@@ -14,24 +14,8 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
 
 <div class="main-content">
   <div class="content-left">
-    <div class="visual-grid">
-      <div class="grid-square teal">
-        <div class="grid-icon">🐭</div>
-      </div>
-      <div class="grid-square orange">
-        <div class="grid-icon">👤</div>
-      </div>
-      <div class="grid-square magenta">
-        <div class="grid-icon">🧠</div>
-      </div>
-      <div class="grid-square blue">
-        <div class="grid-logo">
-          <div class="logo-text">
-            <div class="logo-main">IM</div>
-            <div class="logo-sub">Lab</div>
-          </div>
-        </div>
-      </div>
+    <div class="approach-image">
+      <img src="{{ '/assets/img/approach.webp' | relative_url }}" alt="Our approach to research">
     </div>
     <div class="left-links">
       <a href="{{ '/research/' | relative_url }}">Research</a>

@@ -196,6 +196,19 @@ body {
   font-weight: 300;
 }
 
+/* Approach image */
+.approach-image {
+  margin-bottom: 20px;
+}
+
+.approach-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
+
 .left-links {
   display: flex;
   flex-direction: column;
