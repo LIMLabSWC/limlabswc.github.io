@@ -24,8 +24,6 @@ This website is built using [Jekyll](https://jekyllrb.com/), a static site gener
 ├── _data/
 │   ├── people.yml       # Lab members data
 │   └── publications.yml # Publications data
-├── _people/             # Empty collection directory
-├── _publications/       # Empty collection directory
 ├── Gemfile              # Ruby dependencies
 ├── Gemfile.lock         # Locked dependency versions
 ├── .gitignore           # Git ignore rules

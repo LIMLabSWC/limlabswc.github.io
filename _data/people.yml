@@ -40,7 +40,7 @@ research_fellows:
   
   - name: "Peter Vincent"
     title: "Research Fellow"
-    photo: "Peter Vincent.jpg"
+    photo: "peter_vincent.jpg"
     description: "Peter works on developing novel experimental tools and techniques for neuroscience research. He contributes to projects like Zapit, an open-source photostimulation system for neural circuit manipulation."
 
 phd_students:

@@ -9,15 +9,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Collections
-collections:
-  people:
-    output: true
-    permalink: /:name/
-  publications:
-    output: true
-    permalink: /:name/
-
 # Defaults
 defaults:
   - scope:
@@ -25,16 +16,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: "people"
-    values:
-      layout: "person"
-  - scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: "publication"
 
 # Plugins
 plugins:
@@ -44,8 +25,6 @@ plugins:
 # Exclude from processing
 exclude:
   - README.md
-  - TEMPLATE_README.md
-  - update_template.py
   - Gemfile
   - Gemfile.lock
   - node_modules

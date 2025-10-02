@@ -86,24 +86,7 @@ description: "Research at LIM Lab (Learning, Inference & Memory), Athena Akrami'
   <section class="research-section">
     <h2>Research Photos</h2>
     <div class="research-photos">
-      <div class="photo-grid">
-        <div class="photo-item">
-          <img src="{{ '/assets/img/research-setup-1.jpg' | relative_url }}" alt="Research setup" class="research-image">
-          <p class="photo-caption">Experimental setup for behavioral studies</p>
-        </div>
-        <div class="photo-item">
-          <img src="{{ '/assets/img/research-setup-2.jpg' | relative_url }}" alt="Neural recording setup" class="research-image">
-          <p class="photo-caption">Neural recording equipment</p>
-        </div>
-        <div class="photo-item">
-          <img src="{{ '/assets/img/lab-environment.jpg' | relative_url }}" alt="Lab environment" class="research-image">
-          <p class="photo-caption">Lab environment and workspace</p>
-        </div>
-        <div class="photo-item">
-          <img src="{{ '/assets/img/data-analysis.jpg' | relative_url }}" alt="Data analysis" class="research-image">
-          <p class="photo-caption">Data analysis and computational modeling</p>
-        </div>
-      </div>
+      <p class="photo-placeholder">Research photos will be added here as they become available.</p>
     </div>
   </section>
 </div>
