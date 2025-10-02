@@ -1,0 +1,2 @@
+:root { --bg: #ffffff; --fg: #111; --muted: #666; --brand: #0e5ef0; --maxw: 1100px; --radius: 14px; --shadow: 0 6px 20px rgba(0,0,0,.08); }
+body { margin:0; font-family:sans-serif; background:var(--bg); color:var(--fg);}
