@@ -332,6 +332,529 @@ body {
   width: auto;
 }
 
+/* Page-specific styles */
+.page-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.page-subtitle {
+  font-size: 20px;
+  color: #666;
+  font-weight: 400;
+}
+
+/* Navigation active state */
+.nav a.active {
+  color: #000;
+  font-weight: 600;
+}
+
+/* Research page styles */
+.research-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.research-section {
+  margin-bottom: 60px;
+}
+
+.research-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.research-question {
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.research-question h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.research-question p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+}
+
+.research-question ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.research-question li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.approach-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.approach-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.research-area {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 4px solid #1E90FF;
+  background: #f8f8f8;
+}
+
+.research-area h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* People page styles */
+.people-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.principal-investigator {
+  margin-bottom: 60px;
+}
+
+.principal-investigator h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.person-card {
+  background: #f8f8f8;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.person-info h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.person-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.person-affiliation {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.person-info p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.person-links {
+  display: flex;
+  gap: 20px;
+}
+
+.person-links a {
+  color: #1E90FF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.person-links a:hover {
+  text-decoration: underline;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.member-card {
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.member-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.member-card p {
+  line-height: 1.6;
+}
+
+.member-card a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.member-card a:hover {
+  text-decoration: underline;
+}
+
+/* Publications page styles */
+.publications-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.publications-section {
+  margin-bottom: 60px;
+}
+
+.publications-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.publication-year {
+  margin-bottom: 40px;
+}
+
+.publication-year h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+  border-bottom: 2px solid #1E90FF;
+  padding-bottom: 10px;
+}
+
+.publication-list {
+  margin-left: 20px;
+}
+
+.publication-placeholder {
+  color: #666;
+  font-style: italic;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 4px;
+}
+
+.research-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.research-area-tag {
+  background: #1E90FF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Lab news page styles */
+.news-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.news-section {
+  margin-bottom: 60px;
+}
+
+.news-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.news-item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.news-date {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666;
+  min-width: 80px;
+}
+
+.news-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.news-content p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+}
+
+.news-content ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.news-content li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.news-content a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.news-content a:hover {
+  text-decoration: underline;
+}
+
+.events-list {
+  margin-left: 20px;
+}
+
+.event-placeholder {
+  color: #666;
+  font-style: italic;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 4px;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.highlight-item {
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.highlight-item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* Join page styles */
+.join-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hiring-announcement {
+  margin-bottom: 60px;
+}
+
+.hiring-banner {
+  background: #f8f8f8;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hiring-banner h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.erc-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.erc-text p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.erc-text strong {
+  font-weight: 700;
+}
+
+.erc-logo img {
+  width: 120px;
+  height: 120px;
+}
+
+.positions-section {
+  margin-bottom: 60px;
+}
+
+.positions-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.position-card {
+  background: #f8f8f8;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.position-card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.position-details p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.position-details h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 25px 0 15px 0;
+  color: #000;
+}
+
+.position-details ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.position-details li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.apply-button {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #1E90FF;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #0066CC;
+}
+
+.contact-section {
+  background: #f8f8f8;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.contact-details {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+.contact-details a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-section h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 30px 0 20px 0;
+  color: #000;
+}
+
+.contact-section ul {
+  margin-left: 20px;
+}
+
+.contact-section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .header-container {
@@ -371,5 +894,43 @@ body {
     flex-direction: column;
     gap: 20px;
     text-align: center;
+  }
+  
+  .page-header h1 {
+    font-size: 36px;
+  }
+  
+  .page-subtitle {
+    font-size: 18px;
+  }
+  
+  .news-item {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .news-date {
+    min-width: auto;
+  }
+  
+  .erc-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .erc-text p {
+    text-align: center;
+  }
+  
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .members-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .highlights-grid {
+    grid-template-columns: 1fr;
   }
 }
