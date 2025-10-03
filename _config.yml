@@ -17,10 +17,13 @@ defaults:
     values:
       layout: "default"
 
-# Plugins
+# Plugins (handled by github-pages gem)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# GitHub metadata (for GitHub Actions)
+github: [metadata]
 
 # Exclude from processing
 exclude:

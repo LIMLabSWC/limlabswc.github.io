@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-# GitHub Pages compatible Jekyll setup
-gem "github-pages", group: :jekyll_plugins
+# Jekyll setup for GitHub Actions
+gem "jekyll", "~> 4.3.0"
+gem "jekyll-feed", "~> 0.12"
+gem "jekyll-sitemap"
