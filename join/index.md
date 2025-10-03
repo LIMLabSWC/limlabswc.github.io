@@ -20,14 +20,13 @@ description: "Join LIM Lab (Learning, Inference & Memory), Athena Akrami's group
           <p>Please get in touch if you are interested in joining our lab!</p>
         </div>
         <div class="erc-logo">
-          <img src="{{ '/assets/img/European_Research_Council_logo-01.webp' | relative_url }}" alt="ERC logo">
+          <img src="{{ '/assets/img/erc.png' | relative_url }}" alt="ERC logo">
         </div>
       </div>
     </div>
   </section>
   
-  <section class="positions-section">
-    <h2>Open Positions</h2>
+  <section class="positions-section"><h2>Open Positions</h2>
     
     <div class="position-card">
       <h3>Postdoctoral Fellows</h3>
@@ -122,7 +121,7 @@ description: "Join LIM Lab (Learning, Inference & Memory), Athena Akrami's group
       </div>
     </div>
   </section>
-  
+
   <section class="contact-section">
     <h2>How to Apply</h2>
     <div class="contact-info">

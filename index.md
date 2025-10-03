@@ -30,7 +30,6 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
       <p>Finding and exploiting patterns and regularities in the environment is a critical brain function. We infer statistical patterns and regularities from sensory input, and these priors are formed through experience and learning.</p>
       
       <p>The link between past, present, and future memories is crucial for organizing sensory memory and integrating learned priors with current sensory input to make predictions about the future.</p>
-      
       <p>At LIM Lab, we use theory, experiment, high-throughput training, behavioral paradigms, and tools to monitor neural circuits to understand how the brain learns, remembers, and makes inferences.</p>
     </div>
   </div>
@@ -44,7 +43,7 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
       <p>This €2 million award over five years enables us to conduct long-term research and recruit <strong>postdoctoral fellows</strong> and research technicians.</p>
     </div>
     <div class="erc-logo">
-      <img src="{{ '/assets/img/European_Research_Council_logo-01.webp' | relative_url }}" alt="ERC logo">
+      <img src="{{ '/assets/img/erc.png' | relative_url }}" alt="ERC logo">
     </div>
   </div>
 </section>
