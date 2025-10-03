@@ -190,14 +190,19 @@ body {
 /* Approach image */
 .approach-image {
   margin-bottom: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .approach-image img {
   width: 100%;
   height: auto;
+  max-height: 300px;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-  object-fit: cover;
+  object-fit: contain;
+  background: #f8f8f8;
 }
 
 /* Research area tags */
@@ -1092,6 +1097,15 @@ body {
     width: 250px;
     height: 250px;
     margin: 0 auto;
+  }
+  
+  .approach-image {
+    max-width: 300px;
+    margin: 0 auto 20px auto;
+  }
+  
+  .approach-image img {
+    max-height: 200px;
   }
   
   .hiring-content {
