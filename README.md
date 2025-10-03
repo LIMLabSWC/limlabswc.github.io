@@ -170,8 +170,6 @@ The site is live at [https://lim.bio](https://lim.bio) with HTTPS automatically 
 
 We welcome contributions to improve the website! Here's how you can help:
 
-### For Lab Members
-
 1. **Update Your Profile**:
    - Edit `_data/people.yml` to update your information
    - Add or update your photo in `assets/img/`
