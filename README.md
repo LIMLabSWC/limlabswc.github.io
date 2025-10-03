@@ -1,6 +1,6 @@
 # LIM Lab Website
 
-This is the official website for the Learning, Inference & Memory (LIM) Lab, led by Dr. Athena Akrami at the Sainsbury Wellcome Centre, UCL, London.
+This is the official website for the Learning, Inference & Memory (LIM) Lab, at the Sainsbury Wellcome Centre, UCL, London.
 
 🌐 **Live at**: [https://lim.bio](https://lim.bio)
 
@@ -166,14 +166,80 @@ The site is live at [https://lim.bio](https://lim.bio) with HTTPS automatically 
 - **DNS**: 4 A records for redundancy + CNAME for www subdomain
 - **GitHub Pages**: Fully compatible with automatic deployment
 
-## 📞 Contact
+## 🤝 How to Contribute
 
-For questions about the website or lab, contact:
+We welcome contributions to improve the website! Here's how you can help:
 
-- **Email**: <a.akrami@ucl.ac.uk>
-- **Institution**: Sainsbury Wellcome Centre, UCL
-- **Location**: London, UK
+### For Lab Members
 
----
+1. **Update Your Profile**:
+   - Edit `_data/people.yml` to update your information
+   - Add or update your photo in `assets/img/`
+   - Include your latest research interests and publications
 
-*This website showcases the research and people of the LIM Lab, contributing to our understanding of learning, inference, and memory in the brain.*
+2. **Add Publications**:
+   - Edit `_data/publications.yml`
+   - Follow the existing format for consistency
+   - Include DOI links when available
+
+3. **Share News**:
+   - Edit `labnews/index.md`
+   - Add new items to the "Recent News" section
+   - Include relevant links and images
+
+### For External Contributors
+
+1. **Report Issues**:
+   - Found a bug or broken link? Open an issue on GitHub
+   - Suggest improvements or new features
+   - Report accessibility or usability problems
+
+2. **Submit Improvements**:
+   - Fork the repository
+   - Create a feature branch
+   - Make your changes
+   - Submit a pull request with a clear description
+
+### Development Workflow
+
+```bash
+# Fork and clone the repository
+git clone https://github.com/YOUR-USERNAME/limlabswc.github.io.git
+cd limlabswc.github.io
+
+# Install dependencies
+bundle install
+
+# Make your changes
+# Edit files as needed
+
+# Test locally
+bundle exec jekyll serve
+
+# Check at http://localhost:4000
+
+# Commit and push
+git add .
+git commit -m "Description of changes"
+git push origin your-branch
+
+# Create pull request on GitHub
+```
+
+### Contribution Guidelines
+
+- **Content**: Keep academic tone and accuracy
+- **Images**: Optimize images for web (compress, use appropriate formats)
+- **Code**: Follow existing patterns and structure
+- **Testing**: Always test changes locally before submitting
+- **Documentation**: Update README if you add new features
+
+### Types of Contributions Welcome
+
+- ✅ Content updates (people, publications, news)
+- ✅ Bug fixes and broken link repairs
+- ✅ Accessibility improvements
+- ✅ Performance optimizations
+- ✅ Mobile responsiveness fixes
+- ✅ SEO improvements
+- ✅ New features (with discussion first)
