@@ -19,11 +19,6 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
     <div class="approach-image">
       <img src="{{ '/assets/img/approach.webp' | relative_url }}" alt="LIM Lab research approach: theory, experiment, high-throughput training, and neural monitoring">
     </div>
-    <div class="left-links">
-      <a href="{{ '/research/' | relative_url }}">Research</a>
-      <a href="{{ '/research/' | relative_url }}">Find out about our research</a>
-      <a href="{{ '/research/' | relative_url }}">Learn More →</a>
-    </div>
   </div>
   <div class="content-right">
     <div class="research-description">

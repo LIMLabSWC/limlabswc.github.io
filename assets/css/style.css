@@ -287,22 +287,6 @@ body {
   border-radius: var(--border-radius);
 }
 
-.left-links {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.left-links a {
-  color: #666;
-  text-decoration: none;
-  font-size: 14px;
-  transition: color 0.2s;
-}
-
-.left-links a:hover {
-  color: #000;
-}
 
 /* Right column - Research description */
 .content-right {
