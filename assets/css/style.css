@@ -34,8 +34,6 @@ body {
 }
 
 .logo-container {
-  border: 1px solid #ccc;
-  padding: 15px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,6 +43,9 @@ body {
   height: 40px;
   width: auto;
   object-fit: contain;
+  background: transparent;
+  border: none;
+  border-radius: 0;
 }
 
 .logo-full {
