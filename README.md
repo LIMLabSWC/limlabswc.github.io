@@ -4,7 +4,7 @@ This is the official website for the Learning, Inference & Memory (LIM) Lab, led
 
 ## 🚀 Built with Jekyll
 
-This website is built using [Jekyll](https://jekyllrb.com/), a static site generator that's natively supported by GitHub Pages. This provides:
+This website is built using [Jekyll](https://jekyllrb.com/) with the `github-pages` gem, ensuring full compatibility with GitHub Pages. This provides:
 
 - **Template System**: One layout file controls all pages
 - **Data-Driven Content**: People and publications managed in YAML files
@@ -124,11 +124,12 @@ This site is automatically deployed to GitHub Pages when you push to the `main` 
 
 ## 🔧 Technical Details
 
-- **Jekyll Version**: 4.3.4
+- **Jekyll Version**: 3.10.0 (GitHub Pages compatible)
 - **Ruby Version**: 2.7+
 - **CSS**: Custom stylesheet with responsive design
 - **Images**: Optimized for web with proper alt tags
 - **Navigation**: Automatic active state highlighting
+- **GitHub Pages**: Fully compatible with automatic deployment
 
 ## 📞 Contact
 

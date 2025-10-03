@@ -5,7 +5,9 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
 ---
 
 <section class="hero">
-  <img src="{{ '/assets/img/header_london.png' | relative_url }}" alt="London skyline - Sainsbury Wellcome Centre location">
+  <div class="hero-image">
+    <img src="{{ '/assets/img/header_london.png' | relative_url }}" alt="London skyline - Sainsbury Wellcome Centre location">
+  </div>
   <div class="hero-content">
     <h1>Learning, Inference &amp; Memory</h1>
     <p class="hero-subtitle">Athena Akrami's lab at Sainsbury Wellcome Centre, UCL, London</p>
