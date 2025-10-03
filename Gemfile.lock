@@ -156,7 +156,6 @@ DEPENDENCIES
   jekyll (~> 4.3.0)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
-  webrick (~> 1.7)
 
 BUNDLED WITH
    2.7.2
