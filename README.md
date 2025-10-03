@@ -187,19 +187,6 @@ We welcome contributions to improve the website! Here's how you can help:
    - Add new items to the "Recent News" section
    - Include relevant links and images
 
-### For External Contributors
-
-1. **Report Issues**:
-   - Found a bug or broken link? Open an issue on GitHub
-   - Suggest improvements or new features
-   - Report accessibility or usability problems
-
-2. **Submit Improvements**:
-   - Fork the repository
-   - Create a feature branch
-   - Make your changes
-   - Submit a pull request with a clear description
-
 ### Development Workflow
 
 ```bash
@@ -228,7 +215,6 @@ git push origin your-branch
 
 ### Contribution Guidelines
 
-- **Content**: Keep academic tone and accuracy
 - **Images**: Optimize images for web (compress, use appropriate formats)
 - **Code**: Follow existing patterns and structure
 - **Testing**: Always test changes locally before submitting
