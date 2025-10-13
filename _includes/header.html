@@ -5,6 +5,11 @@
         <img src="{{ '/assets/img/limlogo.webp' | relative_url }}" alt="LIM Lab" class="header-logo">
       </div>
     </div>
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
     <nav class="nav">
       <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>HOME</a>
       <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research' %}class="active"{% endif %}>RESEARCH</a>
@@ -15,3 +20,35 @@
     </nav>
   </div>
 </header>
+<div class="mobile-nav-overlay"></div>
+<script>
+  // Mobile menu toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.mobile-menu-toggle');
+    const nav = document.querySelector('.nav');
+    const overlay = document.querySelector('.mobile-nav-overlay');
+    const body = document.body;
+    
+    function closeMenu() {
+      nav.classList.remove('active');
+      overlay.classList.remove('active');
+      toggle.classList.remove('active');
+      body.style.overflow = '';
+    }
+    
+    toggle.addEventListener('click', function() {
+      nav.classList.toggle('active');
+      overlay.classList.toggle('active');
+      toggle.classList.toggle('active');
+      body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+    });
+    
+    overlay.addEventListener('click', closeMenu);
+    
+    // Close menu when clicking nav links
+    const navLinks = nav.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+  });
+</script>
