@@ -35,17 +35,35 @@ body {
 
 .logo-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 10px;
   align-items: center;
 }
 
-.header-logo {
-  height: 40px;
-  width: auto;
-  object-fit: contain;
-  background: transparent;
-  border: none;
-  border-radius: 0;
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  padding: 4px;
+}
+
+.social-link:hover {
+  color: #333;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .logo-full {
@@ -1106,6 +1124,19 @@ body {
   .header-container {
     flex-direction: row;
     justify-content: space-between;
+  }
+  
+  .logo-container {
+    gap: 8px;
+  }
+  
+  .social-links {
+    gap: 6px;
+  }
+  
+  .social-icon {
+    width: 16px;
+    height: 16px;
   }
   
   .mobile-menu-toggle {
