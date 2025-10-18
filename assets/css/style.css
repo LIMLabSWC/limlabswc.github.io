@@ -142,9 +142,10 @@ body {
 
 .main-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  grid-template-columns: 1fr auto auto 1fr;
+  gap: 30px;
   margin-bottom: 80px;
+  align-items: start;
 }
 
 /* Left column - Visual grid */
@@ -209,7 +210,7 @@ body {
 .approach-image {
   margin-bottom: 20px;
   max-width: 400px;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 
@@ -310,12 +311,18 @@ body {
 .content-right {
   display: flex;
   align-items: flex-start;
+  max-width: 600px;
+}
+
+.content-spacer {
+  /* Empty column for centering */
 }
 
 .research-description {
   font-size: 16px;
   line-height: 1.7;
   color: #333;
+  text-align: justify;
 }
 
 .research-description p {
@@ -1197,6 +1204,10 @@ body {
   .main-content {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+  
+  .content-spacer {
+    display: none;
   }
   
   .visual-grid {

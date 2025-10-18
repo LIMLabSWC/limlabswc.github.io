@@ -15,6 +15,7 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
 </section>
 
 <div class="main-content">
+  <div class="content-spacer"></div>
   <div class="content-left">
     <div class="approach-image">
       <img src="{{ '/assets/img/approach.webp' | relative_url }}" alt="LIM Lab research approach: theory, experiment, high-throughput training, and neural monitoring">
@@ -28,6 +29,7 @@ description: "LIM Lab (Learning, Inference & Memory), Athena Akrami's group at S
       <p>At LIM Lab, we use theory, experiment, high-throughput training, behavioral paradigms, and tools to monitor neural circuits to understand how the brain learns, remembers, and makes inferences.</p>
     </div>
   </div>
+  <div class="content-spacer"></div>
 </div>
 
 <section class="hiring-section">
