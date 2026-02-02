@@ -891,42 +891,74 @@ body {
   font-size: 16px;
   font-weight: 600;
   color: #666;
-  min-width: 80px;
+  min-width: 120px;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
-.news-content h3 {
+.news-item-content h3 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
   color: #000;
 }
 
-.news-content p {
+.news-item-content p {
   margin-bottom: 15px;
   line-height: 1.7;
 }
 
-.news-content ul {
+.news-item-content ul {
   margin-left: 20px;
   margin-bottom: 15px;
 }
 
-.news-content li {
+.news-item-content li {
   margin-bottom: 8px;
   line-height: 1.6;
 }
 
-.news-content a {
+.news-item-content a {
   color: #1E90FF;
   text-decoration: none;
 }
 
-.news-content a:hover {
+.news-item-content a:hover {
   text-decoration: underline;
 }
 
 .events-list {
   margin-left: 20px;
+}
+
+.event-item {
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  background: #f8f8f8;
+  border-radius: 4px;
+  border-left: 4px solid #1E90FF;
+}
+
+.event-item .event-date {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.event-item .event-title {
+  font-weight: 600;
+}
+
+.event-item .event-title p {
+  margin: 0;
+}
+
+.event-item p {
+  margin: 8px 0 0;
+  line-height: 1.6;
 }
 
 .event-placeholder {
@@ -1251,6 +1283,11 @@ body {
   
   .news-date {
     min-width: auto;
+    white-space: normal;
+  }
+
+  .event-item .event-date {
+    white-space: normal;
   }
   
   .erc-info {
