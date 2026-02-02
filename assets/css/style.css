@@ -1,4 +1,31 @@
-/* Reset and base styles */
+/*
+ * LIM Lab site – main stylesheet
+ * ==============================
+ *
+ * STRUCTURE (scroll to section):
+ *   1. Reset & base
+ *   2. CSS variables (design tokens)
+ *   3. Layout – main container
+ *   4. Header & navigation
+ *   5. Home page
+ *   6. Footer
+ *   7. Shared – page headers, buttons, mobile menu
+ *   8. Research page
+ *   9. People page
+ *  10. Publications page
+ *  11. Lab news page
+ *  12. Join page
+ *  13. Error (404) page
+ *  14. Responsive – breakpoints
+ *
+ * Shared components: .btn-primary/.btn-secondary (section 7), .erc-logo img
+ * (section 5), .research-areas/.research-area-tag (section 10, use :root vars).
+ */
+
+/* ==========================================================================
+   1. RESET & BASE
+   ========================================================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +39,32 @@ body {
   background: #ffffff;
 }
 
-/* Header */
+/* ==========================================================================
+   2. CSS VARIABLES (design tokens – used for buttons, cards, hero)
+   ========================================================================== */
+
+:root {
+  --primary-color: #1E90FF;
+  --primary-hover: #0056b3;
+  --text-color: #333;
+  --border-radius: 8px;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================================================
+   3. LAYOUT – main content wrapper
+   ========================================================================== */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+/* ==========================================================================
+   4. HEADER & NAVIGATION
+   ========================================================================== */
+
 .site-header {
   background: #ffffff;
   border-bottom: 1px solid #e5e5e5;
@@ -93,6 +145,10 @@ body {
   color: #000;
 }
 
+/* ==========================================================================
+   5. HOME PAGE (hero, approach grid, research description, hiring CTA)
+   ========================================================================== */
+
 /* Hero section */
 .hero {
   margin-bottom: 60px;
@@ -131,13 +187,6 @@ body {
   margin: 0;
   color: #666;
   font-weight: 400;
-}
-
-/* Main container */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 20px;
 }
 
 .main-content {
@@ -183,7 +232,7 @@ body {
 }
 
 .grid-square.blue {
-  background-color: #1E90FF;
+  background-color: var(--primary-color);
 }
 
 .grid-icon {
@@ -224,78 +273,6 @@ body {
   background: #f8f8f8;
 }
 
-/* Research area tags */
-.research-areas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.research-area-tag {
-  background: var(--primary-color);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background-color 0.2s;
-}
-
-.research-area-tag:hover {
-  background: #0056b3;
-}
-
-/* Error page styles */
-.error-content {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
-.error-message {
-  margin-bottom: 40px;
-}
-
-.error-actions {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.btn-primary, .btn-secondary {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: var(--border-radius);
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.2s;
-}
-
-.btn-primary {
-  background: var(--primary-color);
-  color: white;
-}
-
-.btn-primary:hover {
-  background: #0056b3;
-  color: white;
-}
-
-.btn-secondary {
-  background: #f8f9fa;
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-}
-
-.btn-secondary:hover {
-  background: var(--primary-color);
-  color: white;
-}
-
 /* Photo placeholder */
 .photo-placeholder {
   text-align: center;
@@ -314,8 +291,9 @@ body {
   max-width: 600px;
 }
 
+/* Empty column in home grid – used for layout centering */
 .content-spacer {
-  /* Empty column for centering */
+  /* intentionally empty */
 }
 
 .research-description {
@@ -362,6 +340,7 @@ body {
   font-weight: 700;
 }
 
+/* Shared: home hiring section + Join page */
 .erc-logo img {
   width: 120px;
   height: 120px;
@@ -375,19 +354,10 @@ body {
   margin: 40px 0;
 }
 
-/* Social link */
-.social-link {
-  text-align: center;
-  margin: 20px 0;
-}
+/* ==========================================================================
+   6. FOOTER
+   ========================================================================== */
 
-.social-link a {
-  font-size: 20px;
-  color: #333;
-  text-decoration: none;
-}
-
-/* Footer */
 .site-footer {
   background: #f8f8f8;
   padding: 40px 0;
@@ -418,7 +388,10 @@ body {
   width: auto;
 }
 
-/* Page-specific styles */
+/* ==========================================================================
+   7. SHARED (page headers, nav active state, mobile menu)
+   ========================================================================== */
+
 .page-header {
   text-align: center;
   margin-bottom: 60px;
@@ -441,6 +414,38 @@ body {
 .nav a.active {
   color: #000;
   font-weight: 600;
+}
+
+/* Shared buttons (404 page, Join page) */
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  color: white;
+}
+
+.btn-secondary {
+  background: #f8f9fa;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--primary-color);
+  color: white;
 }
 
 /* Mobile menu toggle button */
@@ -495,7 +500,10 @@ body {
   pointer-events: all;
 }
 
-/* Research page styles */
+/* ==========================================================================
+   8. RESEARCH PAGE
+   ========================================================================== */
+
 .research-content {
   max-width: 900px;
   margin: 0 auto;
@@ -563,7 +571,7 @@ body {
 .research-area {
   margin-bottom: 30px;
   padding: 20px;
-  border-left: 4px solid #1E90FF;
+  border-left: 4px solid var(--primary-color);
   background: #f8f8f8;
 }
 
@@ -607,7 +615,10 @@ body {
   margin: 0;
 }
 
-/* People page styles */
+/* ==========================================================================
+   9. PEOPLE PAGE (PI card, member grid)
+   ========================================================================== */
+
 .people-content {
   max-width: 900px;
   margin: 0 auto;
@@ -677,7 +688,7 @@ body {
 }
 
 .person-links a {
-  color: #1E90FF;
+  color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
 }
@@ -702,7 +713,7 @@ body {
   font-weight: 600;
   margin-bottom: 30px;
   color: #000;
-  border-bottom: 2px solid #1E90FF;
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 10px;
 }
 
@@ -779,7 +790,7 @@ body {
 }
 
 .member-card a {
-  color: #1E90FF;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -787,7 +798,10 @@ body {
   text-decoration: underline;
 }
 
-/* Publications page styles */
+/* ==========================================================================
+  10. PUBLICATIONS PAGE
+   ========================================================================== */
+
 .publications-content {
   max-width: 900px;
   margin: 0 auto;
@@ -813,7 +827,7 @@ body {
   font-weight: 600;
   margin-bottom: 20px;
   color: #000;
-  border-bottom: 2px solid #1E90FF;
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 10px;
 }
 
@@ -826,7 +840,7 @@ body {
   padding: 15px;
   background: #f8f8f8;
   border-radius: 4px;
-  border-left: 4px solid #1E90FF;
+  border-left: 4px solid var(--primary-color);
 }
 
 .publication-item p {
@@ -853,6 +867,7 @@ body {
   border-radius: 4px;
 }
 
+/* Same component as home page; values match :root --primary-color */
 .research-areas {
   display: flex;
   flex-wrap: wrap;
@@ -861,15 +876,23 @@ body {
 }
 
 .research-area-tag {
-  background: #1E90FF;
+  background: var(--primary-color);
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 500;
+  transition: background-color 0.2s;
 }
 
-/* Lab news page styles */
+.research-area-tag:hover {
+  background: var(--primary-hover);
+}
+
+/* ==========================================================================
+  11. LAB NEWS PAGE (recent news, upcoming events, highlights)
+   ========================================================================== */
+
 .news-content {
   max-width: 900px;
   margin: 0 auto;
@@ -927,7 +950,7 @@ body {
 }
 
 .news-item-content a {
-  color: #1E90FF;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -944,7 +967,7 @@ body {
   margin-bottom: 12px;
   background: #f8f8f8;
   border-radius: 4px;
-  border-left: 4px solid #1E90FF;
+  border-left: 4px solid var(--primary-color);
 }
 
 .event-item .event-date {
@@ -998,7 +1021,10 @@ body {
   color: #000;
 }
 
-/* Join page styles */
+/* ==========================================================================
+  12. JOIN PAGE (hiring banner, positions, contact)
+   ========================================================================== */
+
 .join-content {
   max-width: 1000px;
   margin: 0 auto;
@@ -1039,11 +1065,6 @@ body {
 
 .erc-text strong {
   font-weight: 700;
-}
-
-.erc-logo img {
-  width: 120px;
-  height: 120px;
 }
 
 .positions-section {
@@ -1097,21 +1118,6 @@ body {
   margin-top: 30px;
 }
 
-.btn-primary {
-  display: inline-block;
-  background: #1E90FF;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.2s;
-}
-
-.btn-primary:hover {
-  background: #0066CC;
-}
-
 .contact-section {
   background: #f8f8f8;
   padding: 40px;
@@ -1142,7 +1148,7 @@ body {
 }
 
 .contact-details a {
-  color: #1E90FF;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -1166,7 +1172,32 @@ body {
   line-height: 1.6;
 }
 
-/* Responsive design */
+/* ==========================================================================
+  13. ERROR (404) PAGE
+   ========================================================================== */
+
+.error-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.error-message {
+  margin-bottom: 40px;
+}
+
+.error-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+  14. RESPONSIVE – tablet & mobile (max-width: 768px)
+   ========================================================================== */
+
 @media (max-width: 768px) {
   .header-container {
     flex-direction: row;
@@ -1226,7 +1257,7 @@ body {
   
   .nav a.active {
     background: #f0f0f0;
-    border-left: 4px solid #1E90FF;
+    border-left: 4px solid var(--primary-color);
   }
   
   .hero-image {
