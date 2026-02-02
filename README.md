@@ -27,6 +27,7 @@ This website is built using [Jekyll](https://jekyllrb.com/) with the `github-pag
 │   ├── people.yml       # Lab members data
 │   ├── publications.yml # Publications data
 │   └── news.yml         # Lab news entries
+├── CNAME                # Custom domain (lim.bio)
 ├── Gemfile              # Ruby dependencies
 ├── Gemfile.lock         # Locked dependency versions
 ├── .gitignore           # Git ignore rules
@@ -125,7 +126,7 @@ Add new items at the top of the list so the latest news appears first.
 The lab news page has an **Upcoming Events** section. Edit `_data/news.yml`:
 
 - **Placeholder message** (when there are no events): change `events_placeholder`.
-- **Add events**: replace `upcoming_events: []` with a list of items, each with `date`, `title`, and optional `description` (markdown):
+- **Add events**: set `upcoming_events` to a list of items (or `[]` when none), each with `date`, `title`, and optional `description` (markdown):
 
 ```yaml
 upcoming_events:
@@ -144,7 +145,7 @@ upcoming_events:
 
 ### Page-Specific Changes
 
-- **Content**: Edit the respective `.md` file in each directory
+- **Content**: Edit the respective `.md` file in each directory (People, Publications, and Lab News content live in `_data/people.yml`, `_data/publications.yml`, and `_data/news.yml`)
 - **Page Title/Description**: Edit the front matter at the top of each `.md` file
 
 ## 🌐 Custom Domain Configuration
@@ -213,6 +214,7 @@ We welcome contributions to improve the website! Here's how you can help:
    - Edit `_data/news.yml` and add a new entry under `recent_news`
    - Use `date`, `title`, and `paragraphs` (list of strings; markdown supported)
    - Add new items at the top so the latest news appears first
+   - To add or edit **Upcoming Events**, edit `upcoming_events` in `_data/news.yml`
 
 ### Development Workflow
 
