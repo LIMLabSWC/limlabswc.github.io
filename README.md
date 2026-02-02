@@ -9,7 +9,7 @@ This is the official website for the Learning, Inference & Memory (LIM) Lab, at 
 This website is built using [Jekyll](https://jekyllrb.com/) with the `github-pages` gem, ensuring full compatibility with GitHub Pages. This provides:
 
 - **Template System**: One layout file controls all pages
-- **Data-Driven Content**: People and publications managed in YAML files
+- **Data-Driven Content**: People, publications, and lab news managed in YAML files
 - **Automatic Builds**: GitHub Pages builds automatically on push
 - **Easy Maintenance**: Add new content without touching HTML
 
@@ -25,7 +25,8 @@ This website is built using [Jekyll](https://jekyllrb.com/) with the `github-pag
 │   └── footer.html      # Footer partial
 ├── _data/
 │   ├── people.yml       # Lab members data
-│   └── publications.yml # Publications data
+│   ├── publications.yml # Publications data
+│   └── news.yml         # Lab news entries
 ├── Gemfile              # Ruby dependencies
 ├── Gemfile.lock         # Locked dependency versions
 ├── .gitignore           # Git ignore rules
@@ -45,8 +46,8 @@ This website is built using [Jekyll](https://jekyllrb.com/) with the `github-pag
     │   └── style.css    # All styling
     └── img/             # Images and photos
         ├── athena1b.jpg
-        ├── European_Research_Council_logo-01.webp
-        ├── sainsbury.png
+        ├── erc.png
+        ├── swc.png
         ├── ucl.png
         └── [other member photos and logos]
 ```
@@ -101,9 +102,37 @@ published:
     note: "Additional note"  # optional
 ```
 
-### Adding News
+### Adding Lab News
 
-Edit `labnews/index.md` and add new news items in the Recent News section.
+Edit `_data/news.yml` and add new entries under `recent_news`. Each item has a `date`, `title`, and `paragraphs` list. Paragraphs support **markdown** (bold, links, lists).
+
+```yaml
+recent_news:
+  - date: "2025"
+    title: "Your headline"
+    paragraphs:
+      - "First paragraph."
+      - "Second paragraph. Use **bold** or [links](/join/) in markdown."
+      - |
+        - List item one
+        - List item two
+```
+
+Add new items at the top of the list so the latest news appears first.
+
+### Upcoming Events (Lab News page)
+
+The lab news page has an **Upcoming Events** section. Edit `_data/news.yml`:
+
+- **Placeholder message** (when there are no events): change `events_placeholder`.
+- **Add events**: replace `upcoming_events: []` with a list of items, each with `date`, `title`, and optional `description` (markdown):
+
+```yaml
+upcoming_events:
+  - date: "2025-03-15"
+    title: "Lab meeting"
+    description: "Weekly lab meeting, Room 123."
+```
 
 ## 🎨 Making Design Changes
 
@@ -181,9 +210,9 @@ We welcome contributions to improve the website! Here's how you can help:
    - Include DOI links when available
 
 3. **Share News**:
-   - Edit `labnews/index.md`
-   - Add new items to the "Recent News" section
-   - Include relevant links and images
+   - Edit `_data/news.yml` and add a new entry under `recent_news`
+   - Use `date`, `title`, and `paragraphs` (list of strings; markdown supported)
+   - Add new items at the top so the latest news appears first
 
 ### Development Workflow
 

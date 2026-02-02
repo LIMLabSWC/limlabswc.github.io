@@ -23,7 +23,7 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
         <p>Athena Akrami leads the Learning, Inference & Memory Lab at the Sainsbury Wellcome Centre, UCL. Her research focuses on understanding the neural mechanisms underlying learning, memory, and inference in both humans and animals.</p>
         <div class="person-links">
           <a href="mailto:a.akrami@ucl.ac.uk">Email</a>
-          <a href="https://www.ucl.ac.uk/swc/people/athena-akrami" target="_blank" rel="noreferrer">SWC Profile</a>
+          <a href="https://www.ucl.ac.uk/swc/people/athena-akrami" target="_blank" rel="noopener noreferrer">SWC Profile</a>
         </div>
       </div>
     </div>
