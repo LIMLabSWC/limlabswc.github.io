@@ -770,6 +770,14 @@ body {
   text-align: left;
 }
 
+.member-description p {
+  margin: 0 0 0.5em;
+}
+
+.member-description p:last-child {
+  margin-bottom: 0;
+}
+
 .member-card a {
   color: #1E90FF;
   text-decoration: none;

@@ -47,7 +47,7 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
           <div class="member-info">
             <h4>{{ person.name }}</h4>
             <p class="member-title">{{ person.title }}</p>
-            <p class="member-description">{{ person.description }}</p>
+            <div class="member-description">{{ person.description | markdownify }}</div>
           </div>
         </div>
         {% endfor %}
@@ -69,7 +69,7 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
           <div class="member-info">
             <h4>{{ person.name }}</h4>
             <p class="member-title">{{ person.title }}</p>
-            <p class="member-description">{{ person.description }}</p>
+            <div class="member-description">{{ person.description | markdownify }}</div>
           </div>
         </div>
         {% endfor %}
@@ -91,7 +91,7 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
           <div class="member-info">
             <h4>{{ person.name }}</h4>
             <p class="member-title">{{ person.title }}</p>
-            <p class="member-description">{{ person.description }}</p>
+            <div class="member-description">{{ person.description | markdownify }}</div>
           </div>
         </div>
         {% endfor %}
@@ -113,7 +113,7 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
           <div class="member-info">
             <h4>{{ person.name }}</h4>
             <p class="member-title">{{ person.title }}</p>
-            <p class="member-description">{{ person.description }}</p>
+            <div class="member-description">{{ person.description | markdownify }}</div>
           </div>
         </div>
         {% endfor %}
@@ -135,7 +135,7 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
           <div class="member-info">
             <h4>{{ person.name }}</h4>
             <p class="member-title">{{ person.title }}</p>
-            <p class="member-description">{{ person.description }}</p>
+            <div class="member-description">{{ person.description | markdownify }}</div>
           </div>
         </div>
         {% endfor %}
