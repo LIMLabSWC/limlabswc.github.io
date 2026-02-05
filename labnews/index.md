@@ -31,13 +31,25 @@ description: "Latest news from LIM Lab (Learning, Inference & Memory), Athena Ak
     <div class="events-list">
       {% if site.data.news.upcoming_events.size > 0 %}
         {% for event in site.data.news.upcoming_events %}
+        {% if event.url %}
+        <a href="{{ event.url }}" class="event-link" target="_blank" rel="noopener noreferrer">
+          <div class="event-item card-clickable">
+            <span class="event-date">{{ event.date }}</span>
+            <div class="event-title">{{ event.title }}</div>
+            {% if event.description %}
+              {{ event.description | markdownify }}
+            {% endif %}
+          </div>
+        </a>
+        {% else %}
         <div class="event-item">
           <span class="event-date">{{ event.date }}</span>
-          <div class="event-title">{{ event.title | markdownify }}</div>
+          <div class="event-title">{{ event.title }}</div>
           {% if event.description %}
             {{ event.description | markdownify }}
           {% endif %}
         </div>
+        {% endif %}
         {% endfor %}
       {% else %}
         <p class="event-placeholder">{{ site.data.news.events_placeholder }}</p>

@@ -3,16 +3,19 @@ preprints:
     title: "Zapit: Open Source Random-Access Photostimulation For Neuroscience"
     journal: "bioRxiv"
     year: 2024
+    url: "https://www.biorxiv.org/content/10.1101/2024.03.25.586688v1"
 
   - authors: "Victor Pedrosa*, Elena Menichini*, Quentin Pajot-Moric*, Peter Vincent, Liang Zhou, Lillianne Teachen, Peter Latham, Athena Akrami"
     title: "Humans, rats and mice show species-specific adaptations to sensory statistics in categorisation behavior"
     journal: "bioRxiv"
     year: 2023
+    url: "https://www.biorxiv.org/content/10.1101/2023.09.07.556694v2"
 
   - authors: "George Dimitriadis, Ella Svahn, Andrew MacAskill, Athena Akrami"
     title: "Heron: A Knowledge Graph editor for intuitive implementation of python based experimental pipelines."
     journal: "bioRxiv"
     year: 2023
+    url: "https://www.biorxiv.org/content/10.1101/2023.10.03.560678v1"
 
 published:
   - authors: "Vezha Boboeva, Alberto Pezzotta, Claudia Clopath*, Athena Akrami*"
@@ -21,61 +24,72 @@ published:
     year: 2024
     status: "In press"
     note: "*equal co-last author"
+    url: "https://elifesciences.org/articles/86725"
 
   - authors: "Xinhong Chen, Damien A Wolfe, …, Viktor Plattner, …, Athena Akrami, …, Viviana Gradinaru"
     title: "Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates."
     journal: "Nature Communication"
     year: 2023
     note: "bioRxiv 2023"
+    url: "https://www.nature.com/articles/s41467-023-38582-7"
 
   - authors: "Chunyu Duan*, Marino Pagan*, Alex Piet, Charles Kopec, Alex Riordan, Athena Akrami, Jeffrey Erlich & Carlos Brody"
     title: "Collicular circuits for flexible sensorimotor routing"
     journal: "Nature Neuroscience"
     year: 2021
     note: "BioRxiv 2018"
+    url: "https://www.nature.com/articles/s41593-021-00865-x"
 
   - authors: "Constantinople, Christine M., Alex T. Piet, Peter Bibawi, Athena Akrami, Charles D. Kopec, and Carlos D. Brody"
     title: "Orbitofrontal cortex promotes trial-by-trial learning of risky, but not spatial, biases."
     journal: "BioRxiv"
     year: 2019
+    url: "https://www.biorxiv.org/content/10.1101/685107v1"
 
   - authors: "Nickolas Roy, Ji Hyun Bak, Athena Akrami, Carlos Brody, Jonathan Pillow"
     title: "Efficient inference for time-varying behavior during learning."
     journal: "Advances in Neural Information Processing Systems 31"
     year: 2018
+    url: "https://papers.nips.cc/paper/7812-efficient-inference-for-time-varying-behavior-during-learning"
 
   - authors: "Athena Akrami, Charles Kopec, Mathew Diamond Carlos Brody"
     title: "Posterior parietal cortex represents sensory history and mediates its effects on behavior"
     journal: "Nature"
     year: 2018
     note: "BioRxiv version"
+    url: "https://www.nature.com/articles/nature25510"
 
   - authors: "Benjamin Scott*, Christine Constantinople*, Athena Akrami, Timothy Hanks, Carlos Brody, David Tank"
     title: "Fronto-parietal cortical circuits encode accumulated evidence with a diversity of timescales"
     journal: "Neuron"
     year: 2017
+    url: "https://www.cell.com/neuron/fulltext/S0896-6273(17)30126-6"
 
   - authors: "Arash Fassihi, Athena Akrami, Vinzenz Schoenfelder, Francesca Pulecchi, Mathew Diamond"
     title: "Transformation of Perception from Sensory to Motor Cortex"
     journal: "Current Biology"
     year: 2017
+    url: "https://www.sciencedirect.com/science/article/pii/S096098221730547X"
 
   - authors: "Ji Hyun Bak, Jung Yoon Choi, Athena Akrami, Witten Ilana, Pillow Janathan"
     title: "Adaptive optimal training of animal behavior"
     journal: "Advances in Neural Information Processing Systems 29 (NIPS)"
     year: 2016
+    url: "https://papers.nips.cc/paper/2016/hash/7fec306d1e665bc9c748b5d2b99a6e97-Abstract.html"
 
   - authors: "Natalia Grion*, Athena Akrami*, Yangfang Zuo, Federico Stella, Mathew Diamond"
     title: "Coherence between rat sensorimotor system and hippocampus is enhanced during tactile discrimination"
     journal: "PLoS Biology"
     year: 2016
     note: "*equal co-first author"
+    url: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002384"
 
   - authors: "Arash Fassihi*, Athena Akrami*,Vahid Esmaeili, Mathew Diamond"
     title: "Tactile perception and working memory in rats and humans"
     journal: "PNAS"
     year: 2014
     note: "*equal co-first author"
+    url: "https://www.pnas.org/doi/10.1073/pnas.1315171111"
 
   - authors: "Arash Fassihi, Athena Akrami, Vahid Esmaeili, Fabrizio Manzino and Mathew Diamond"
     title: "Sensation of a noisy whisker vibration in rats"
@@ -86,6 +100,7 @@ published:
     title: "An unusual increase in the lumbar network excitability of the rat spinal cord is evoked by the PARP-1 inhibitor PJ-34 through inhibition of glutamate uptake"
     journal: "Neuropharmacology"
     year: 2012
+    url: "https://pubmed.ncbi.nlm.nih.gov/22561282/"
 
   - authors: "Athena Akrami, Eleonora Russo, Alessandro Treves"
     title: "Lateral thinking, from the Hopfield model to cortical dynamics"
@@ -96,6 +111,7 @@ published:
     title: "Hippocampal population dynamics underlying memory trace activation in a tactile classification task"
     journal: "BMC Neuroscience"
     year: 2011
+    url: "https://bmcneurosci.biomedcentral.com/articles/10.1186/1471-2202-12-S1-P70"
 
   - authors: "Athena Akrami, Alessandro Treves"
     title: "Neural basis of perceptual expectations: insights from transient dynamics of attractor neural networks"
