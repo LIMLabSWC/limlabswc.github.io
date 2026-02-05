@@ -557,26 +557,33 @@ body {
 }
 
 .approach-item {
-  text-align: center;
-  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 20px 24px;
+  text-align: left;
 }
 
 .approach-item h4 {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   color: #000;
+}
+
+.approach-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: #555;
 }
 
 .research-area {
   margin-bottom: 30px;
   padding: 20px;
-  border-left: 4px solid var(--primary-color);
   background: #f8f8f8;
 }
 
 .research-area h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
   color: #000;
@@ -814,7 +821,6 @@ body {
   padding: 15px;
   background: #f8f8f8;
   border-radius: 4px;
-  border-left: 4px solid var(--primary-color);
 }
 
 .publication-item p {
@@ -920,7 +926,27 @@ body {
   margin-bottom: 12px;
   background: #f8f8f8;
   border-radius: 4px;
+}
+
+/* Clickable cards – blue left border reserved for links */
+.card-clickable {
   border-left: 4px solid var(--primary-color);
+}
+
+.publication-link,
+.event-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-clickable {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card-clickable:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
 }
 
 .event-item .event-date {

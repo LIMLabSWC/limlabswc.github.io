@@ -101,6 +101,7 @@ published:
     year: 2024
     status: "In press"  # optional
     note: "Additional note"  # optional
+    url: "https://doi.org/..."  # optional, makes the card clickable on the Publications page
 ```
 
 ### Adding Lab News
@@ -126,13 +127,14 @@ Add new items at the top of the list so the latest news appears first.
 The lab news page has an **Upcoming Events** section. Edit `_data/news.yml`:
 
 - **Placeholder message** (when there are no events): change `events_placeholder`.
-- **Add events**: set `upcoming_events` to a list of items (or `[]` when none), each with `date`, `title`, and optional `description` (markdown):
+- **Add events**: set `upcoming_events` to a list of items (or `[]` when none), each with `date`, `title`, optional `description` (markdown), and optional `url` (for clickable cards):
 
 ```yaml
 upcoming_events:
   - date: "2025-03-15"
     title: "Lab meeting"
     description: "Weekly lab meeting, Room 123."
+    url: "https://example-conference.org"  # optional
 ```
 
 ## 🎨 Making Design Changes
