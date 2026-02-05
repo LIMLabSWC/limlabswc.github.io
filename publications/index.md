@@ -39,15 +39,4 @@ description: "Publications from LIM Lab (Learning, Inference & Memory), Athena A
     {% endfor %}
   </section>
   
-  <section class="publications-section">
-    <h2>Research Areas</h2>
-    <div class="research-areas">
-      <div class="research-area-tag">Statistical Learning</div>
-      <div class="research-area-tag">Memory Organization</div>
-      <div class="research-area-tag">Sensory Inference</div>
-      <div class="research-area-tag">Neural Circuits</div>
-      <div class="research-area-tag">Behavioral Paradigms</div>
-      <div class="research-area-tag">Computational Models</div>
-    </div>
-  </section>
-</div>
+ </div>

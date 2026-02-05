@@ -582,39 +582,6 @@ body {
   color: #000;
 }
 
-.research-photos {
-  margin-top: 30px;
-}
-
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  margin-top: 20px;
-}
-
-.photo-item {
-  text-align: center;
-  background: #f8f8f8;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.research-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 4px;
-  margin-bottom: 15px;
-}
-
-.photo-caption {
-  font-size: 14px;
-  color: #666;
-  font-style: italic;
-  margin: 0;
-}
-
 /* ==========================================================================
    9. PEOPLE PAGE (PI card, member grid)
    ========================================================================== */
@@ -629,6 +596,13 @@ body {
 }
 
 .principal-investigator h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.lab-members h2 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -705,16 +679,16 @@ body {
 }
 
 .members-section {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .members-section h3 {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: #000;
-  border-bottom: 2px solid var(--primary-color);
-  padding-bottom: 10px;
+  /* border-bottom: 2px solid var(--primary-color); */
+  padding-bottom: 1px;
 }
 
 .member-card {
@@ -827,7 +801,7 @@ body {
   font-weight: 600;
   margin-bottom: 20px;
   color: #000;
-  border-bottom: 2px solid var(--primary-color);
+  /* border-bottom: 2px solid var(--primary-color); */
   padding-bottom: 10px;
 }
 
@@ -867,28 +841,6 @@ body {
   border-radius: 4px;
 }
 
-/* Same component as home page; values match :root --primary-color */
-.research-areas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.research-area-tag {
-  background: var(--primary-color);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 14px;
-  font-weight: 500;
-  transition: background-color 0.2s;
-}
-
-.research-area-tag:hover {
-  background: var(--primary-hover);
-}
-
 /* ==========================================================================
   11. LAB NEWS PAGE (recent news, upcoming events, highlights)
    ========================================================================== */
@@ -911,7 +863,8 @@ body {
 
 .news-item {
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+  gap: 15px;
   margin-bottom: 40px;
   padding: 30px;
   background: #f8f8f8;
@@ -998,27 +951,6 @@ body {
   padding: 20px;
   background: #f8f8f8;
   border-radius: 4px;
-}
-
-.highlights-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.highlight-item {
-  background: #f8f8f8;
-  padding: 30px;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.highlight-item h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  color: #000;
 }
 
 /* ==========================================================================
@@ -1315,11 +1247,6 @@ body {
     font-size: 18px;
   }
   
-  .news-item {
-    flex-direction: column;
-    gap: 15px;
-  }
-  
   .news-date {
     min-width: auto;
     white-space: normal;
@@ -1346,10 +1273,6 @@ body {
     grid-template-columns: 1fr;
   }
   
-  .highlights-grid {
-    grid-template-columns: 1fr;
-  }
-  
   .person-card {
     flex-direction: column;
     text-align: center;
@@ -1358,9 +1281,5 @@ body {
   .person-image {
     width: 150px;
     height: 150px;
-  }
-  
-  .photo-grid {
-    grid-template-columns: 1fr;
   }
 }

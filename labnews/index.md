@@ -45,21 +45,4 @@ description: "Latest news from LIM Lab (Learning, Inference & Memory), Athena Ak
     </div>
   </section>
 
-  <section class="news-section">
-    <h2>Lab Highlights</h2>
-    <div class="highlights-grid">
-      <div class="highlight-item">
-        <h4>Research Focus</h4>
-        <p>Our lab investigates the fundamental principles of learning, inference, and memory using a combination of theoretical and experimental approaches.</p>
-      </div>
-      <div class="highlight-item">
-        <h4>Collaborations</h4>
-        <p>We collaborate with researchers across UCL and internationally to advance our understanding of neural computation.</p>
-      </div>
-      <div class="highlight-item">
-        <h4>Training</h4>
-        <p>We provide comprehensive training in cutting-edge neuroscience techniques and computational methods.</p>
-      </div>
-    </div>
-  </section>
 </div>

@@ -83,10 +83,4 @@ description: "Research at LIM Lab (Learning, Inference & Memory), Athena Akrami'
     </div>
   </section>
   
-  <section class="research-section">
-    <h2>Research Photos</h2>
-    <div class="research-photos">
-      <p class="photo-placeholder">Research photos will be added here as they become available.</p>
-    </div>
-  </section>
 </div>
