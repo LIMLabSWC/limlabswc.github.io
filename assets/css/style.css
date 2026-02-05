@@ -17,9 +17,6 @@
  *  12. Join page
  *  13. Error (404) page
  *  14. Responsive – breakpoints
- *
- * Shared components: .btn-primary/.btn-secondary (section 7), .erc-logo img
- * (section 5), .research-areas/.research-area-tag (section 10, use :root vars).
  */
 
 /* ==========================================================================
@@ -550,8 +547,8 @@ body {
 }
 
 .approach-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   margin-top: 30px;
 }
