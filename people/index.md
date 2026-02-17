@@ -141,10 +141,29 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
         {% endfor %}
       </div>
     </div>
+    
+    <div class="members-section">
+      <h3>Alumni</h3>
+      <div class="members-grid">
+        {% for person in site.data.people.alumni %}
+        <div class="member-card">
+          <div class="member-photo">
+            {% if person.photo %}
+              <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="member-image">
+            {% else %}
+              <div class="member-placeholder">No Photo</div>
+            {% endif %}
+          </div>
+          <div class="member-info">
+            <h4>{{ person.name }}</h4>
+            <p class="member-title">{{ person.title }}</p>
+            <div class="member-description">{{ person.description | markdownify }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </section>
   
-  <section class="alumni">
-    <h2>Alumni</h2>
-    <p>Information about former lab members will be updated here as the lab grows.</p>
-  </section>
+
 </div>
