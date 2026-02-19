@@ -116,6 +116,15 @@ research_assistants:
       She assists with behavioral experiments and contributes to various
       research projects in the lab.
 
+  - name: "Amirali Pourdehghan"
+    title: "Research Assistant"
+    photo: amir.jpg
+    description: >-
+      Amirali provides research support for experimental work and data analysis.
+      He assists with behavioral experiments and contributes to various
+      research projects in the lab.
+
+
 alumni:
 
   - name: "Peter Vincent"
