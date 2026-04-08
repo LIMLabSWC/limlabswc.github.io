@@ -182,18 +182,6 @@ This site is automatically deployed to GitHub Pages when you push to the `main` 
 
 The site is live at [https://lim.bio](https://lim.bio) with HTTPS automatically enforced.
 
-## 📋 Features
-
-- ✅ **Custom Domain**: Professional `lim.bio` domain with HTTPS
-- ✅ **CDN Performance**: Cloudflare proxy for global fast loading
-- ✅ **Responsive Design**: Works on all devices
-- ✅ **SEO Optimized**: Proper meta tags and structure
-- ✅ **Fast Loading**: Static files, optimized for speed
-- ✅ **Easy Updates**: Data-driven content management
-- ✅ **Professional Design**: Clean, academic aesthetic
-- ✅ **Accessibility**: Proper semantic HTML and alt tags
-- ✅ **DDoS Protection**: Cloudflare security features
-
 ## 🔧 Technical Details
 
 - **Domain**: `lim.bio` (custom domain via Cloudflare DNS)
@@ -260,13 +248,3 @@ git push origin your-branch
 - **Code**: Follow existing patterns and structure
 - **Testing**: Always test changes locally before submitting
 - **Documentation**: Update README if you add new features
-
-### Types of Contributions Welcome
-
-- ✅ Content updates (people, publications, news)
-- ✅ Bug fixes and broken link repairs
-- ✅ Accessibility improvements
-- ✅ Performance optimizations
-- ✅ Mobile responsiveness fixes
-- ✅ SEO improvements
-- ✅ New features (with discussion first)
