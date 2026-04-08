@@ -169,19 +169,12 @@ upcoming_events:
 
 ## 🌐 Custom Domain Configuration
 
-This site uses a custom domain `lim.bio` instead of the default `limlabswc.github.io`:
+This site uses the custom domain `lim.bio`.
 
-- **CNAME file**: Contains `lim.bio` to configure the custom domain
-- **Jekyll config**: `_config.yml` updated with the custom domain URL
-- **DNS records**: Configured in Cloudflare with GitHub Pages IPs
-- **HTTPS**: Automatically enforced through GitHub Pages
-
-### DNS Configuration (Cloudflare)
-
-- **A records**: 4 GitHub Pages IP addresses (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`)
-- **CNAME**: `www` subdomain pointing to `limlabswc.github.io`
-- **Proxy status**: All records are proxied through Cloudflare for performance and security
-- **Subdomains**: `bcontrol.lim.bio` and `dosing.lim.bio` also point to the GitHub Pages site
+- `CNAME` is configured for the custom domain
+- `_config.yml` is set to use the production site URL
+- DNS is managed through Cloudflare
+- The site is deployed via GitHub Pages with HTTPS enabled
 
 ## 🚀 Deployment
 
