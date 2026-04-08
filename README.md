@@ -58,22 +58,39 @@ This website is built using [Jekyll](https://jekyllrb.com/) with the `github-pag
 ### Prerequisites
 
 - Ruby 2.7 or higher
-- Bundler gem
+- Bundler
+
+On Ubuntu/Debian, also install:
+
+```bash
+sudo apt update
+sudo apt install ruby-full ruby-all-dev build-essential zlib1g-dev
+````
 
 ### Setup
 
+Install dependencies locally (avoids permission issues):
+
 ```bash
-# Install dependencies
+bundle config set --local path vendor/bundle
 bundle install
+```
 
-# Build the site
+If there is a Bundler version mismatch:
+
+```bash
+gem install --user-install bundler -v 2.7.2
+bundle _2.7.2_ install
+```
+
+### Build and serve
+
+```bash
 bundle exec jekyll build
-
-# Serve locally
 bundle exec jekyll serve
 ```
 
-The site will be available at `http://localhost:4000`
+The site will be available at [http://localhost:4000](http://localhost:4000)
 
 ## 📝 Adding Content
 
