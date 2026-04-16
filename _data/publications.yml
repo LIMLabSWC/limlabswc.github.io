@@ -1,31 +1,74 @@
 preprints:
+  - authors: "Vezha Boboeva, Alberto Pezzotta, George Dimitriadis, Athena Akrami"
+    title: "From sequences to schemas: low-rank recurrent dynamics underlie abstract relational representations."
+    journal: "bioRxiv"
+    year: 2026
+    url: "https://www.biorxiv.org/content/10.64898/2026.04.10.717706v1.full"
+    
+  - authors: "Adedamola Onih, Xinran Shen, Lida Pentousi, Vezha Boboeva, Athena Akrami"
+    title: "The hippocampus enables abstract structure learning without reward."
+    journal: "bioRxiv"
+    year: 2026
+    url: "https://www.biorxiv.org/content/10.64898/2026.02.14.705916v1.full"
+    
+  - authors: "Ella Svahn, Yeqing Wang, Hermione Knebelmann, Yang Pan, Nikie Shahab-Dehkordi, Athena Akrami, Andrew F MacAskill"
+    title: "Acetylcholine reflects uncertainty during hidden state inference"
+    journal: "bioRxiv"
+    year: 2025
+    url: "https://www.biorxiv.org/content/10.1101/2025.11.12.688036v1.full"
+
+  - authors: "Elena Menichini*, Quentin Pajot-Moric*, Ryan Low*, Victor Pedrosa, Amir Pourdehghan, Peter Vincent, Liang Zhou, Lillianne Teachen, Athena Akrami"
+    title: "Different learning algorithms achieve shared optimal outcomes in humans, rats, and mice."
+    journal: "bioRxiv"
+    year: 2025
+    note: "*equal co-first author"
+    url: "https://www.biorxiv.org/content/10.1101/2023.01.30.526119v2.full"
+
+  - authors: "Nathaniel J Zuk, Yarden Weiss, Athena Akrami*, Merav Ahissar*"
+    title: "Reduced monitoring of task performance is an effective biomarker of autism"
+    journal: "bioRxiv"
+    year: 2024
+    note: "*equal co-last author"
+    url: "https://www.biorxiv.org/content/10.1101/2024.07.23.604831v4.full"
+    
   - authors: "Michael Lohse, Oliver M Gauld, Maja T Skretowska, Peter Vincent, Quentin Pajot-Moric, Simon Townsend, Chunyu A Duan, Athena Akrami, Thomas D Mrsic-Flogel, Robert AA Campbell"
     title: "Zapit: Open Source Random-Access Photostimulation For Neuroscience"
     journal: "bioRxiv"
     year: 2024
     url: "https://www.biorxiv.org/content/10.1101/2024.03.25.586688v1"
 
-  - authors: "Victor Pedrosa*, Elena Menichini*, Quentin Pajot-Moric*, Peter Vincent, Liang Zhou, Lillianne Teachen, Peter Latham, Athena Akrami"
-    title: "Humans, rats and mice show species-specific adaptations to sensory statistics in categorisation behavior"
-    journal: "bioRxiv"
-    year: 2023
-    url: "https://www.biorxiv.org/content/10.1101/2023.09.07.556694v2"
+published:
+  - authors: "Ambra Ferrari, Floris P de Lange, Athena Akrami"
+    title: "Where Learning Paths Meet: Convergence and Divergence of Statistical and Reinforcement Learning."
+    journal: "Current Opinion in Neurobiology"
+    year: 2026
+    url: "https://www.sciencedirect.com/science/article/pii/S0959438826000176"
 
+  - authors: "Tala Fakhoury, Elia Turner, Sushrut Thorat, Athena Akrami"
+    title: "Models of attractor dynamics in the brain."
+    journal: " Proceedings of the Analytical Connectionism Schools 2023-2024"
+    year: 2026
+    url: "https://arxiv.org/abs/2505.01098"
+    
   - authors: "George Dimitriadis, Ella Svahn, Andrew MacAskill, Athena Akrami"
     title: "Heron: A Knowledge Graph editor for intuitive implementation of python based experimental pipelines."
-    journal: "bioRxiv"
-    year: 2023
-    url: "https://www.biorxiv.org/content/10.1101/2023.10.03.560678v1"
-
-published:
+    journal: "eLife"
+    year: 2025
+    url: "https://elifesciences.org/articles/91915"
+    
   - authors: "Vezha Boboeva, Alberto Pezzotta, Claudia Clopath*, Athena Akrami*"
-    title: "From recency to the central tendency bias in working memory: a unifying attractor network model."
+    title: "Unifying network model links recency and central tendency biases in working memory."
     journal: "eLife"
     year: 2024
-    status: "In press"
     note: "*equal co-last author"
     url: "https://elifesciences.org/articles/86725"
-
+  
+  - authors: "Mattias Horan, Daniel Regester, Cristina Mazuski, Thomas Jahans-Price, Shanice Bailey, Emmett Thompson, Zuzanna Slonina, Viktor Plattner, Elena Menichini, Irmak Toksöz, Sandra Romero Pinto, Mark Burrell, Isabella Varsavsky, Henry WP Dalgleish, Célian Bimbard, Anna Lebedeva, Marius Bauza, Francesca Cacucci, Thomas Wills, Athena Akrami, Julija Krupic, Marcus Stephenson-Jones, Caswell Barry, Neil Burgess, John O’Keefe, Yoh Isogai"
+    title: "Repix: reliable, reusable, versatile chronic Neuropixels implants using minimal components."
+    journal: "eLife"
+    year: 2024
+    url: "https://elifesciences.org/reviewed-preprints/98977"
+    
   - authors: "Xinhong Chen, Damien A Wolfe, …, Viktor Plattner, …, Athena Akrami, …, Viviana Gradinaru"
     title: "Functional gene delivery to and across brain vasculature of systemic AAVs with endothelial-specific tropism in rodents and broad tropism in primates."
     journal: "Nature Communication"
