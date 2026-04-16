@@ -65,7 +65,12 @@ phd_students:
       research. He contributes to projects involving photostimulation and
       imaging techniques for studying neural circuits.
 
-
+  - name: "Serkan Shentyurk"
+    title: "PhD Student, Optical Biology"
+    photo: null
+    description: >-
+  
+      
 research_technicians:
   - name: "Rebecca Bell"
     title: "Research Technician"
