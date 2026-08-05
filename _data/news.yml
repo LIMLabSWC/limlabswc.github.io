@@ -7,9 +7,9 @@ events_placeholder: >-
 
 # Add events below; use [] when none. Each event: date, title, optional description (markdown).
 upcoming_events:
-  - date: "6–10 Jul 2026"
-    title: "Meet us at FENS Forum 2026 in Barcelona!"
-    url: "https://fensforum.org/"
+  # - date: "6–10 Jul 2026"
+  #   title: "Meet us at FENS Forum 2026 in Barcelona!"
+  #   url: "https://fensforum.org/"
 
 recent_news:
 
