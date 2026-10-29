@@ -20,15 +20,6 @@ senior_research_fellows:
       networks can explain memory distortions and biases in decision-making
       tasks.
 
-  - name: "Viktor Plattner"
-    title: "Senior Research Fellow"
-    photo: "viktor.jpg"
-    description: >-
-      Viktor's research focuses on neural circuit mechanisms underlying learning
-      and memory. He uses advanced imaging and electrophysiological techniques
-      to study how neural circuits encode and retrieve information.
-      [Personal website](https://viktorpm.github.io/)
-
 research_fellows:
   - name: "Arpit Agarwal"
     title: "Research Fellow"
@@ -151,3 +142,9 @@ alumni:
   - name: "George Dimitriadis"
     title: "Joint Gatsby Unit/Sainsbury Wellcome Centre Research Fellow"
     photo: null
+
+  - name: "Viktor Plattner"
+    title: "Senior Research Fellow"
+    photo: "viktor.jpg"
+    description: >-
+      [Personal website](https://viktorpm.github.io/)
