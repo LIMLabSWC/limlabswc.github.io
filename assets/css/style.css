@@ -615,7 +615,6 @@ body {
 }
 
 .person-card {
-  position: relative;
   background: #f8f8f8;
   padding: 40px;
   border-radius: 8px;
@@ -625,13 +624,10 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.person-card-linked {
+.person-card-linked,
+.member-card-linked {
+  position: relative;
   cursor: pointer;
-}
-
-.person-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .person-photo {
@@ -659,13 +655,15 @@ body {
   text-decoration: none;
 }
 
-.person-info h3 a::after {
+.person-info h3 a::after,
+.member-card-linked .member-info h4 a::after {
   content: "";
   position: absolute;
   inset: 0;
 }
 
-.person-info h3 a:focus-visible::after {
+.person-info h3 a:focus-visible::after,
+.member-card-linked .member-info h4 a:focus-visible::after {
   outline: 2px solid var(--primary-color);
   outline-offset: 4px;
 }
@@ -737,22 +735,7 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.member-card-linked {
-  position: relative;
-  cursor: pointer;
-}
-
-.member-card-linked .member-info h4 a::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-}
-
-.member-card-linked .member-info h4 a:focus-visible::after {
-  outline: 2px solid var(--primary-color);
-  outline-offset: 4px;
-}
-
+.person-card:hover,
 .member-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
