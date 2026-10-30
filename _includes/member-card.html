@@ -1,0 +1,20 @@
+<div class="member-card">
+  <div class="member-photo">
+    {% if include.person.photo %}
+      <img src="{{ '/assets/img/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}" class="member-image">
+    {% else %}
+      <div class="member-placeholder">No Photo</div>
+    {% endif %}
+  </div>
+  <div class="member-info">
+    <h4>
+      {% if include.person.url %}
+        <a href="{{ include.person.url }}" target="_blank" rel="noopener noreferrer">{{ include.person.name }}</a>
+      {% else %}
+        {{ include.person.name }}
+      {% endif %}
+    </h4>
+    <p class="member-title">{{ include.person.title }}</p>
+    <div class="member-description">{{ include.person.description | markdownify }}</div>
+  </div>
+</div>
