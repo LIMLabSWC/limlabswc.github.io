@@ -15,7 +15,7 @@ senior_research_fellows:
 
   - name: "Vezha Boboeva"
     title: "Senior Research Fellow"
-    photo: null
+    photo: "placeholder_loading.png"
     description: >-
       Vezha works on computational models of working memory and the central
       tendency bias. Her research focuses on understanding how attractor
@@ -48,12 +48,15 @@ research_fellows:
       imaging techniques. Her research focuses on understanding how neural
       circuits adapt and change during learning processes.
 
+  - name: "Arron Hall"
+    title: "Research Fellow"
+    photo: "arron_hall.jpg"
 
 phd_students:
 
   - name: "Serkan Shentyurk"
     title: "PhD Student, Optical Biology"
-    photo: null
+    photo: "placeholder_loading.png"
 
   - name: "Amirali Pourdehghan"
     title: "Research Assistant"
@@ -63,7 +66,7 @@ research_technicians:
 
   - name: "Rebecca Bell"
     title: "Research Technician"
-    photo: null
+    photo: "placeholder_loading.png"
     description: >-
       Rebecca provides technical support for experimental work and data
       collection. She assists with animal care, behavioral training, and
@@ -89,7 +92,7 @@ research_assistants:
 
   - name: "Aline Rampini"
     title: "Research Assistant"
-    photo: null
+    photo: "placeholder_loading.png"
     description: >-
       Aline supports research activities in the lab, including experimental
       work, data collection, and analysis. She contributes to various projects
@@ -116,15 +119,15 @@ alumni:
 
   - name: "Elena Menichini"
     title: "PhD Student, Wellcome Neuroscience UCL"
-    photo: null
+    photo: "placeholder_loading.png"
     
   - name: "Victor Pedrosa"
     title: "Research Fellow"
-    photo: null
+    photo: "placeholder_loading.png"
 
   - name: "George Dimitriadis"
     title: "Joint Gatsby Unit/Sainsbury Wellcome Centre Research Fellow"
-    photo: null
+    photo: "placeholder_loading.png"
 
   - name: "Kyunghye Lee"
     title: "Research Assistant"
