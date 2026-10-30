@@ -47,15 +47,6 @@ research_fellows:
 
 
 phd_students:
-
-  - name: "Quentin Pajot-Moric"
-    title: "PhD Student, Optical Biology"
-    photo: "quentin_pajot-moric_low_res_2.jpg"
-    description: >-
-      Quentin works on developing and applying optical tools for neuroscience
-      research. He contributes to projects involving photostimulation and
-      imaging techniques for studying neural circuits.
-
   - name: "Serkan Shentyurk"
     title: "PhD Student, Optical Biology"
     photo: null
@@ -80,14 +71,6 @@ research_technicians:
       paradigms and neural recording techniques.
 
 research_assistants:
-  - name: "Kyunghye Lee"
-    title: "Research Assistant"
-    photo: "kay_lee_cropped.png"
-    description: >-
-      Kyunghye assists with experimental work and data analysis. She supports
-      various research projects in the lab and helps with behavioral
-      experiments and data collection.
-
   - name: "Lida Pentousi"
     title: "Research Assistant"
     photo: "lida.png"
@@ -143,8 +126,15 @@ alumni:
     title: "Joint Gatsby Unit/Sainsbury Wellcome Centre Research Fellow"
     photo: null
 
+  - name: "Kyunghye Lee"
+    title: "Research Assistant"
+    photo: "kay_lee_cropped.png"
+
+  - name: "Quentin Pajot-Moric"
+    title: "PhD Student, Optical Biology"
+    photo: "quentin_pajot-moric_low_res_2.jpg"
+
   - name: "Viktor Plattner"
+    url: "https://viktorpm.github.io/"
     title: "Senior Research Fellow"
     photo: "viktor.jpg"
-    description: >-
-      [Personal website](https://viktorpm.github.io/)

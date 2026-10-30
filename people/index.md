@@ -28,142 +28,62 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
       </div>
     </div>
   </section>
-  
+
   <section class="lab-members">
     <h2>Lab Members</h2>
-    
+
     <div class="members-section">
       <h3>Senior Research Fellows</h3>
       <div class="members-grid">
         {% for person in site.data.people.senior_research_fellows %}
-        <div class="member-card">
-          <div class="member-photo">
-            {% if person.photo %}
-              <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="member-image">
-            {% else %}
-              <div class="member-placeholder">No Photo</div>
-            {% endif %}
-          </div>
-          <div class="member-info">
-            <h4>{{ person.name }}</h4>
-            <p class="member-title">{{ person.title }}</p>
-            <div class="member-description">{{ person.description | markdownify }}</div>
-          </div>
-        </div>
+          {% include member-card.html person=person %}
         {% endfor %}
       </div>
     </div>
-    
+
     <div class="members-section">
       <h3>Research Fellows</h3>
       <div class="members-grid">
         {% for person in site.data.people.research_fellows %}
-        <div class="member-card">
-          <div class="member-photo">
-            {% if person.photo %}
-              <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="member-image">
-            {% else %}
-              <div class="member-placeholder">No Photo</div>
-            {% endif %}
-          </div>
-          <div class="member-info">
-            <h4>{{ person.name }}</h4>
-            <p class="member-title">{{ person.title }}</p>
-            <div class="member-description">{{ person.description | markdownify }}</div>
-          </div>
-        </div>
+          {% include member-card.html person=person %}
         {% endfor %}
       </div>
     </div>
-    
+
     <div class="members-section">
       <h3>PhD Students</h3>
       <div class="members-grid">
         {% for person in site.data.people.phd_students %}
-        <div class="member-card">
-          <div class="member-photo">
-            {% if person.photo %}
-              <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="member-image">
-            {% else %}
-              <div class="member-placeholder">No Photo</div>
-            {% endif %}
-          </div>
-          <div class="member-info">
-            <h4>{{ person.name }}</h4>
-            <p class="member-title">{{ person.title }}</p>
-            <div class="member-description">{{ person.description | markdownify }}</div>
-          </div>
-        </div>
+          {% include member-card.html person=person %}
         {% endfor %}
       </div>
     </div>
-    
+
     <div class="members-section">
       <h3>Research Technicians</h3>
       <div class="members-grid">
         {% for person in site.data.people.research_technicians %}
-        <div class="member-card">
-          <div class="member-photo">
-            {% if person.photo %}
-              <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="member-image">
-            {% else %}
-              <div class="member-placeholder">No Photo</div>
-            {% endif %}
-          </div>
-          <div class="member-info">
-            <h4>{{ person.name }}</h4>
-            <p class="member-title">{{ person.title }}</p>
-            <div class="member-description">{{ person.description | markdownify }}</div>
-          </div>
-        </div>
+          {% include member-card.html person=person %}
         {% endfor %}
       </div>
     </div>
-    
+
     <div class="members-section">
       <h3>Research Assistants</h3>
       <div class="members-grid">
         {% for person in site.data.people.research_assistants %}
-        <div class="member-card">
-          <div class="member-photo">
-            {% if person.photo %}
-              <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="member-image">
-            {% else %}
-              <div class="member-placeholder">No Photo</div>
-            {% endif %}
-          </div>
-          <div class="member-info">
-            <h4>{{ person.name }}</h4>
-            <p class="member-title">{{ person.title }}</p>
-            <div class="member-description">{{ person.description | markdownify }}</div>
-          </div>
-        </div>
+          {% include member-card.html person=person %}
         {% endfor %}
       </div>
     </div>
-    
+
     <div class="members-section">
       <h3>Alumni</h3>
       <div class="members-grid">
         {% for person in site.data.people.alumni %}
-        <div class="member-card">
-          <div class="member-photo">
-            {% if person.photo %}
-              <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="member-image">
-            {% else %}
-              <div class="member-placeholder">No Photo</div>
-            {% endif %}
-          </div>
-          <div class="member-info">
-            <h4>{{ person.name }}</h4>
-            <p class="member-title">{{ person.title }}</p>
-            <div class="member-description">{{ person.description | markdownify }}</div>
-          </div>
-        </div>
+          {% include member-card.html person=person %}
         {% endfor %}
       </div>
     </div>
   </section>
-  
-
 </div>
