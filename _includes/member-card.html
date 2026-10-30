@@ -1,4 +1,4 @@
-<div class="member-card{% if include.person.url %} member-card-linked{% endif %}">
+<div class="member-card{% if include.person.url %} card-clickable{% endif %}">
   <div class="member-photo">
     {% if include.person.photo %}
       <img src="{{ '/assets/img/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}" class="member-image">

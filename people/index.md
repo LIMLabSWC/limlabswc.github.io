@@ -13,7 +13,7 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
   <section class="principal-investigator">
     <h2>Principal Investigator</h2>
     {% for person in site.data.people.principal_investigator %}
-    <div class="person-card{% if person.url %} person-card-linked{% endif %}">
+    <div class="person-card{% if person.url %} card-clickable{% endif %}">
       <div class="person-photo">
         <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="person-image">
       </div>
