@@ -615,12 +615,23 @@ body {
 }
 
 .person-card {
+  position: relative;
   background: #f8f8f8;
   padding: 40px;
   border-radius: 8px;
   display: flex;
   gap: 30px;
   align-items: flex-start;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.person-card-linked {
+  cursor: pointer;
+}
+
+.person-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .person-photo {
@@ -643,6 +654,26 @@ body {
   color: #000;
 }
 
+.person-info h3 a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.person-info h3 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.person-info h3 a:focus-visible::after {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 4px;
+}
+
+.person-info h3 a:hover {
+  text-decoration: underline;
+}
+
 .person-title {
   font-size: 18px;
   font-weight: 600;
@@ -662,6 +693,8 @@ body {
 }
 
 .person-links {
+  position: relative;
+  z-index: 1;
   display: flex;
   gap: 20px;
 }
@@ -702,6 +735,22 @@ body {
   border-radius: 8px;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.member-card-linked {
+  position: relative;
+  cursor: pointer;
+}
+
+.member-card-linked .member-info h4 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.member-card-linked .member-info h4 a:focus-visible::after {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 4px;
 }
 
 .member-card:hover {

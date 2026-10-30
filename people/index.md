@@ -12,21 +12,30 @@ description: "People at LIM Lab (Learning, Inference & Memory), Athena Akrami's 
 <div class="people-content">
   <section class="principal-investigator">
     <h2>Principal Investigator</h2>
-    <div class="person-card">
+    {% for person in site.data.people.principal_investigator %}
+    <div class="person-card{% if person.url %} person-card-linked{% endif %}">
       <div class="person-photo">
-        <img src="{{ '/assets/img/athena1b.jpg' | relative_url }}" alt="Dr. Athena Akrami" class="person-image">
+        <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="person-image">
       </div>
       <div class="person-info">
-        <h3>Dr. Athena Akrami</h3>
-        <p class="person-title">Principal Investigator</p>
-        <p class="person-affiliation">Sainsbury Wellcome Centre, UCL</p>
-        <p>Athena Akrami leads the Learning, Inference & Memory Lab at the Sainsbury Wellcome Centre, UCL. Her research focuses on understanding the neural mechanisms underlying learning, memory, and inference in both humans and animals.</p>
+        <h3>
+          {% if person.url %}
+            <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>
+          {% else %}
+            {{ person.name }}
+          {% endif %}
+        </h3>
+        <p class="person-title">{{ person.title }}</p>
+        <p class="person-affiliation">{{ person.affiliation }}</p>
+        <p>{{ person.description }}</p>
         <div class="person-links">
-          <a href="mailto:a.akrami@ucl.ac.uk">Email</a>
-          <a href="https://www.ucl.ac.uk/swc/people/athena-akrami" target="_blank" rel="noopener noreferrer">SWC Profile</a>
+          {% if person.email %}
+            <a href="mailto:{{ person.email }}">Email</a>
+          {% endif %}
         </div>
       </div>
     </div>
+    {% endfor %}
   </section>
 
   <section class="lab-members">
