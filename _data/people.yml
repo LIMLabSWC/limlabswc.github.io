@@ -1,4 +1,5 @@
 principal_investigator:
+
   - name: "Dr. Athena Akrami"
     title: "Principal Investigator"
     affiliation: "Sainsbury Wellcome Centre, UCL"
@@ -11,6 +12,7 @@ principal_investigator:
       animals.
 
 senior_research_fellows:
+
   - name: "Vezha Boboeva"
     title: "Senior Research Fellow"
     photo: null
@@ -21,6 +23,7 @@ senior_research_fellows:
       tasks.
 
 research_fellows:
+
   - name: "Arpit Agarwal"
     title: "Research Fellow"
     photo: "arpit_agarwal_large.jpg"
@@ -47,13 +50,17 @@ research_fellows:
 
 
 phd_students:
+
   - name: "Serkan Shentyurk"
     title: "PhD Student, Optical Biology"
     photo: null
-    description: >-
-  
+
+  - name: "Amirali Pourdehghan"
+    title: "Research Assistant"
+    photo: amir.jpg
       
 research_technicians:
+
   - name: "Rebecca Bell"
     title: "Research Technician"
     photo: null
@@ -71,6 +78,7 @@ research_technicians:
       paradigms and neural recording techniques.
 
 research_assistants:
+
   - name: "Lida Pentousi"
     title: "Research Assistant"
     photo: "lida.png"
@@ -93,14 +101,6 @@ research_assistants:
     description: >-
       Audra provides research support for experimental work and data analysis.
       She assists with behavioral experiments and contributes to various
-      research projects in the lab.
-
-  - name: "Amirali Pourdehghan"
-    title: "Research Assistant"
-    photo: amir.jpg
-    description: >-
-      Amirali provides research support for experimental work and data analysis.
-      He assists with behavioral experiments and contributes to various
       research projects in the lab.
 
 
